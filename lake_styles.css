@@ -1,0 +1,83 @@
+﻿/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: Yuying jia
+   Date:   2024.9.12
+   
+   Filename: lake_styles.css
+
+*/
+body{
+  border-left: 20px solid #cce3b0fe;
+  border-right: 20px solid #cce3b0fe;
+  
+}
+
+body > section#leftcol {
+	width: 71%;
+	float: left;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+body > section#rightcol {
+	width: 29%;
+	float: left;
+	margin-right: 0%;
+  
+}
+
+@font-face {
+  font-family: "cac";
+  src: url(cac_champagne.ttf);
+  src: url(cac_champagne.woff);
+}
+
+.one {
+  font-family: "cac";
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.header {
+  color: white;
+  background-color: rgb(119, 64, 124);
+}
+header a{
+  color: white;
+  text-decoration: none;
+}
+
+
+.leftcol {
+  color: white !important;
+  background-color: black;
+}
+
+.first-aside{
+background-color: rgb(209, 74, 25);
+}
+.last-aside{
+   background-color: rgb(202, 167, 24);
+}
+
+.rightcol {
+  color: white;
+  background-color: rgb(83, 37, 87);
+}
+#rightcol nav a{
+  color: white;
+  text-decoration: none;
+}
+#rightcol nav ul{
+  list-style-type: none;
+  padding-left: 1em;
+}
+
+.footer {
+  color: white;
+  background-color: grey;
+}
